@@ -4,5 +4,10 @@ h1,h2{
 }
  
 body{
-background-color:cadetblue;
+background-color:rgb(145, 178, 209);
+}
+
+.mood{
+display:inline-block
+
 }
