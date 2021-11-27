@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workshop registrartion</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class = "container">
+     </div class = "title"> Workshop Registration</div>
+         <p class="reg">Register now while seats are available!</p>
+         <form action="#">
+          <div class = "user-detail">
+              <div class = "input-box">
+              <span class ="details">First Name</span>
+              <input type="text" required>
+              </div>
+           <div class = "input-box">
+             <span class ="details">Last Name</span>
+             <input type="text" required>
+             </div>
+            <div class = "input-box">
+               <span class ="details">Company/Institution</span>
+                <input type="text" required>
+                 </div>
+                    <div class = "input-box">
+                        <span class ="details">Company/Institution</span>
+                        <input type="text" required>
+                        </div>
+                 <div class = "input-box">
+                            <span class ="details">Address</span>
+                            <input type="text" required>
+                            </div>
+                 <div class = "input-box">
+                         <span class ="details">City</span>
+                            <input type="text" required>
+                             </div>
+                 <div class = "input-box">
+                    <span class ="details">State/Province/region</span>
+
+                    <select name="State" id="state">
+                        <option value="-select-">-select-</option>
+                        <option value="-select-">-others-</option>
+                        
+                      </select>
+                    
+                             </div>
+                 <div class = "input-box">
+                     <span class ="details">Country</span>
+                     <select name="State" id="state">
+                        <option value="-select-">-select-</option>
+                        <select name="country" id="country">
+                         
+                      </select>
+                        
+                           </div>
+                  <div class = "input-box">
+                       <span class ="details">Email</span>
+                                            
+                             <input type="text" required>
+                            </div> <div class = "input-box">
+                                <span class ="details">Phone Number</span>
+                                 <input type="text" required>
+                   </div>
+                   <div class = "input-box">
+                     <p>Lunch</p>
+                    <span class ="details">Meal Preference</span>
+                                    
+                    <select name="meal" id="meal">
+                        <option selected value="vegiterian">Vegiterian</option>
+                        <option value="pacterian">-others-</option>
+                        
+                      </select>
+                    </div>
+                    <div class = "input-box">
+                        <p>Payment Details</p>
+                       <span class ="details">Payment Mode</span>
+                       <input id = "cash" type="checkbox" required>
+                       <label for="cash">Cash</label> 
+                       <input id ="check"type="checkbox" required>
+                       <label for="check">Check</label>
+                       <input id ="demand" type="checkbox" required>
+                       <label for="demand">Demand Draft</label>
+                   </div>
+               </div>
+                <div class= "button">
+                     <input type="reset">
+                    <input type="submit" value="Submit">
+                </div>
+         </form>
+    </div>
+</body>
+</html>
