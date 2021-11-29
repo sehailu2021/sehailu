@@ -25,7 +25,7 @@ const narray = [1,2,3,4,5,6]
  console.log(sum2(narray));
 
 
-var newArrayUsingLoop = function getNewArray(arr){
+function getNewArray(arr){
     let ans = [];
     let j = 0;
     for(let i = 0; i<arr.length; i++){
@@ -38,9 +38,9 @@ var newArrayUsingLoop = function getNewArray(arr){
 const a = ["kalkidan", "serkalem","soli" ]
  console.log(getNewArray(a));
  
-var newArray = function getNewArray2(arr2){
+function getNewArray2(arr2){
     return arr2.filter(a=>a.length >=5)
 }
+const newArray = ["kalkidan", "serkalem","soli" ]
+console.log(getNewArray(newArray));
 
-const stringArray = ["kalkidan",'serkalem','soli']
-console.log(getNewArray2(stringArray));
