@@ -1,4 +1,4 @@
-### Hi there 👋 i just started
+### Hi there 👋 
 
 <!--
 **sehailu2021/sehailu2021** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
