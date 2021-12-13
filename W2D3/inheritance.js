@@ -48,7 +48,7 @@ stu1.inputNewGrade(86);
 stu1.inputNewGrade(80);
 const stu2 = new Student('John2', 'Smith2');
 stu2.inputNewGrade(85);
-stu2.inputNewGrade(95);
+stu2.inputNewGrade(95); 
 stu2.inputNewGrade(85);
 stu2.inputNewGrade(70);
 const students = [stu1, stu2];

@@ -1,0 +1,27 @@
+const Book = require('../models/books');
+
+exports.creatBooks = (req,res, next)=>{
+     const book = req.body;
+     const createdBook = new Book(book.id,book.title,book.ISBN,book.publishedDate,book.author).creat();
+     res.status(201).json(createdBook);
+}
+
+exports.getBooks = (req,res,next)=>{
+    res.status(200).json(product.read());
+}
+
+exports.getBookById = (req,res,next)=>{
+    res.status(200).json(product.readById());
+}
+
+exports.update = (req,res,next)=>{
+   const book = req.body;
+   const updatedBook = new Book(req.params.bookId,book.title,book.ISBN,book.publishedDate,book.author).update();
+   res.status(200).json(updatedBook);
+}
+
+exports.delete = (req,res,next)=>{
+    books.delete(req.params.bookIs);
+    res.status(200).end();
+
+}
